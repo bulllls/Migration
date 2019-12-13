@@ -9,23 +9,36 @@
 /* Begin PBXBuildFile section */
 		9B95642623A3B9E500ABFFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95642523A3B9E500ABFFAF /* AppDelegate.swift */; };
 		9B95642823A3B9E500ABFFAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95642723A3B9E500ABFFAF /* SceneDelegate.swift */; };
-		9B95642A23A3B9E500ABFFAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95642923A3B9E500ABFFAF /* ViewController.swift */; };
+		9B95642A23A3B9E500ABFFAF /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95642923A3B9E500ABFFAF /* UserViewController.swift */; };
 		9B95642D23A3B9E500ABFFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B95642B23A3B9E500ABFFAF /* Main.storyboard */; };
 		9B95643023A3B9E500ABFFAF /* MigrationCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B95642E23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodeld */; };
 		9B95643223A3B9E600ABFFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B95643123A3B9E600ABFFAF /* Assets.xcassets */; };
 		9B95643523A3B9E600ABFFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B95643323A3B9E600ABFFAF /* LaunchScreen.storyboard */; };
+		9B95643E23A3BE6700ABFFAF /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95643D23A3BE6700ABFFAF /* UserTableViewCell.swift */; };
+		9B95644123A3BF7000ABFFAF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95644023A3BF7000ABFFAF /* UserModel.swift */; };
+		9B95644523A3CD9A00ABFFAF /* InternationalUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95644323A3CD9A00ABFFAF /* InternationalUser+CoreDataClass.swift */; };
+		9B95644623A3CD9A00ABFFAF /* InternationalUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95644423A3CD9A00ABFFAF /* InternationalUser+CoreDataProperties.swift */; };
+		9B95644A23A3D80E00ABFFAF /* SwedenUserMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95644923A3D80E00ABFFAF /* SwedenUserMapping.swift */; };
+		9B95644C23A3D8C600ABFFAF /* FinlandUserMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95644B23A3D8C600ABFFAF /* FinlandUserMapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B95642223A3B9E500ABFFAF /* MigrationCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigrationCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B95642523A3B9E500ABFFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B95642723A3B9E500ABFFAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B95642923A3B9E500ABFFAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B95642923A3B9E500ABFFAF /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		9B95642C23A3B9E500ABFFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B95642F23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MigrationCoreData.xcdatamodel; sourceTree = "<group>"; };
 		9B95643123A3B9E600ABFFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B95643423A3B9E600ABFFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B95643623A3B9E600ABFFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B95643D23A3BE6700ABFFAF /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		9B95644023A3BF7000ABFFAF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9B95644323A3CD9A00ABFFAF /* InternationalUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InternationalUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9B95644423A3CD9A00ABFFAF /* InternationalUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InternationalUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9B95644723A3D36000ABFFAF /* MigrationCoreDataV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MigrationCoreDataV2.xcdatamodel; sourceTree = "<group>"; };
+		9B95644923A3D80E00ABFFAF /* SwedenUserMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwedenUserMapping.swift; sourceTree = "<group>"; };
+		9B95644B23A3D8C600ABFFAF /* FinlandUserMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinlandUserMapping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +71,54 @@
 		9B95642423A3B9E500ABFFAF /* MigrationCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				9B95642523A3B9E500ABFFAF /* AppDelegate.swift */,
-				9B95642723A3B9E500ABFFAF /* SceneDelegate.swift */,
-				9B95642923A3B9E500ABFFAF /* ViewController.swift */,
+				9B95644823A3D7E100ABFFAF /* MigrationSetting */,
+				9B95643F23A3BF4B00ABFFAF /* Model */,
+				9B95643C23A3BE4500ABFFAF /* Cell */,
+				9B95642923A3B9E500ABFFAF /* UserViewController.swift */,
 				9B95642B23A3B9E500ABFFAF /* Main.storyboard */,
-				9B95643123A3B9E600ABFFAF /* Assets.xcassets */,
-				9B95643323A3B9E600ABFFAF /* LaunchScreen.storyboard */,
+				9B95644223A3BF8500ABFFAF /* SupportsFile */,
 				9B95643623A3B9E600ABFFAF /* Info.plist */,
-				9B95642E23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodeld */,
 			);
 			path = MigrationCoreData;
+			sourceTree = "<group>";
+		};
+		9B95643C23A3BE4500ABFFAF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B95643D23A3BE6700ABFFAF /* UserTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9B95643F23A3BF4B00ABFFAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B95644323A3CD9A00ABFFAF /* InternationalUser+CoreDataClass.swift */,
+				9B95644423A3CD9A00ABFFAF /* InternationalUser+CoreDataProperties.swift */,
+				9B95642523A3B9E500ABFFAF /* AppDelegate.swift */,
+				9B95644023A3BF7000ABFFAF /* UserModel.swift */,
+				9B95642E23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B95644223A3BF8500ABFFAF /* SupportsFile */ = {
+			isa = PBXGroup;
+			children = (
+				9B95643123A3B9E600ABFFAF /* Assets.xcassets */,
+				9B95643323A3B9E600ABFFAF /* LaunchScreen.storyboard */,
+				9B95642723A3B9E500ABFFAF /* SceneDelegate.swift */,
+			);
+			path = SupportsFile;
+			sourceTree = "<group>";
+		};
+		9B95644823A3D7E100ABFFAF /* MigrationSetting */ = {
+			isa = PBXGroup;
+			children = (
+				9B95644923A3D80E00ABFFAF /* SwedenUserMapping.swift */,
+				9B95644B23A3D8C600ABFFAF /* FinlandUserMapping.swift */,
+			);
+			path = MigrationSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B95642A23A3B9E500ABFFAF /* ViewController.swift in Sources */,
+				9B95644523A3CD9A00ABFFAF /* InternationalUser+CoreDataClass.swift in Sources */,
+				9B95642A23A3B9E500ABFFAF /* UserViewController.swift in Sources */,
+				9B95644C23A3D8C600ABFFAF /* FinlandUserMapping.swift in Sources */,
 				9B95642623A3B9E500ABFFAF /* AppDelegate.swift in Sources */,
+				9B95644A23A3D80E00ABFFAF /* SwedenUserMapping.swift in Sources */,
 				9B95642823A3B9E500ABFFAF /* SceneDelegate.swift in Sources */,
 				9B95643023A3B9E500ABFFAF /* MigrationCoreData.xcdatamodeld in Sources */,
+				9B95644123A3BF7000ABFFAF /* UserModel.swift in Sources */,
+				9B95643E23A3BE6700ABFFAF /* UserTableViewCell.swift in Sources */,
+				9B95644623A3CD9A00ABFFAF /* InternationalUser+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +404,7 @@
 		9B95642E23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				9B95644723A3D36000ABFFAF /* MigrationCoreDataV2.xcdatamodel */,
 				9B95642F23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodel */,
 			);
 			currentVersion = 9B95642F23A3B9E500ABFFAF /* MigrationCoreData.xcdatamodel */;
