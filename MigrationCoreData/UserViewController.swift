@@ -14,10 +14,10 @@ class UserViewController: UIViewController {
     @IBOutlet weak var userTableView: UITableView!
     var dataSource = [UserModel]()
     
-    lazy var frc: NSFetchedResultsController<InternationalUser> = {
+    lazy var frc: NSFetchedResultsController<FinlandUser> = {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { fatalError() }
         let context = appDelegate.persistentContainer.viewContext
-        let request = NSFetchRequest<InternationalUser>(entityName: "InternationalUser")
+        let request = NSFetchRequest<FinlandUser>(entityName: "FinlandUser")
         let descriptor = NSSortDescriptor(key: "userName", ascending: true)
         request.sortDescriptors = [descriptor]
         let controller = NSFetchedResultsController(fetchRequest: request, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
@@ -92,15 +92,15 @@ extension UserViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "userCell") as? UserTableViewCell
         cell?.lblName.text = frc.object(at: indexPath).userName
-        cell?.lblCountry.text = frc.object(at: indexPath).userCountry
+        //cell?.lblCountry.text = frc.object(at: indexPath).userCountry
         cell?.lblCity.text = frc.object(at: indexPath).userCity
         
-        switch frc.object(at: indexPath).userCountry {
-            case "Sweden":
-                cell?.imgCtryFlag?.image = UIImage(named: "SwedenFlag")
-            default:
-                cell?.imgCtryFlag?.image = UIImage(named: "FinlandFlag")
-        }
+//        switch frc.object(at: indexPath).userCountry {
+//            case "Sweden":
+//                cell?.imgCtryFlag?.image = UIImage(named: "SwedenFlag")
+//            default:
+//                cell?.imgCtryFlag?.image = UIImage(named: "FinlandFlag")
+//        }
         return cell ?? UITableViewCell()
     }
     
